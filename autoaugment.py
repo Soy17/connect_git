@@ -1,5 +1,5 @@
 
-class AlbumentationsTransform:
+class AlbumentationsTransform:#뭐가 어떻게 된거임
     def __init__(self, is_train: bool = True):
         # 공통 변환 설정: 이미지 리사이즈, 정규화, 텐서 변환
         self.common_transforms = A.Compose([
